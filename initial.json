@@ -1,0 +1,101 @@
+{
+    "status": "success",
+    "message": "User Groups list displayed successfully",
+    "data": {
+        "user_groups": [
+            {
+                "group_name": "tent_grp_name_suriya2",
+                "created_at": "2022-05-11 08:56:28.449000",
+                "updated_at": "2022-05-11 08:56:28.449000",
+                "created_by": "admin",
+                "updated_by": "admin",
+                "user_details": [
+                    {
+                        "_id": "61efc3609d409d8e2864e74d",
+                        "username": "admin",
+                        "id": "61efc3609d409d8e2864e74d"
+                    },
+                    {
+                        "_id": "621c8094ec3feccc71f45be9",
+                        "username": "user03",
+                        "id": "621c8094ec3feccc71f45be9"
+                    },
+                    {
+                        "_id": "6221c5f8306a967ebf6726de",
+                        "username": "suriya001",
+                        "id": "6221c5f8306a967ebf6726de"
+                    },
+                    {
+                        "_id": "62258ca0d625d8dd5fc603dc",
+                        "username": "suriya002",
+                        "id": "62258ca0d625d8dd5fc603dc"
+                    }
+                ],
+                "role_details": [
+                    {
+                        "name": "cost_admin",
+                        "roles": [
+                            "6221c5f8306a967ebf6726d8",
+                            "6221c5f8306a967ebf6726d8"
+                        ]
+                    },
+                    {
+                        "name": "customer_support",
+                        "roles": [
+                            "6221c5f8306a967ebf6726da",
+                            "6221c5f8306a967ebf6726da"
+                        ]
+                    },
+                    {
+                        "name": "security_admin",
+                        "roles": [
+                            "6221c5f8306a967ebf6726d6",
+                            "6221c5f8306a967ebf6726d6"
+                        ]
+                    }
+                ],
+                "project_details": [
+                    {
+                        "_id": "6217921212973ef05a2b28cb",
+                        "name": "ishmeet-ykn4f",
+                        "id": "6217921212973ef05a2b28cb"
+                    },
+                    {
+                        "_id": "6217924a201122707f5d1fcb",
+                        "name": "ishmeet-yk74h",
+                        "id": "6217924a201122707f5d1fcb"
+                    },
+                    {
+                        "_id": "6221c5f8306a967ebf6726cf",
+                        "name": "suriya_tenant",
+                        "id": "6221c5f8306a967ebf6726cf"
+                    }
+                ],
+                "id": "627b7a3c8bd389a3ba7a3092",
+                "total_users": 4,
+                "total_roles": 3
+            },
+            {
+                "group_name": "tent_grp_name_suriya",
+                "created_at": "2022-05-11 08:44:58.085000",
+                "updated_at": "2022-05-11 08:44:58.085000",
+                "created_by": "admin",
+                "updated_by": "admin",
+                "user_details": [
+                    {
+                        "_id": "61efc3609d409d8e2864e74d",
+                        "username": "admin",
+                        "id": "61efc3609d409d8e2864e74d"
+                    }
+                ],
+                "role_details": [],
+                "project_details": [],
+                "id": "627b778a8bd389a3ba7a308a",
+                "total_users": 1,
+                "total_roles": 0
+            }
+        ],
+        "total_count": 2,
+        "page_count": 1
+    }
+}

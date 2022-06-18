@@ -1,0 +1,34 @@
+{
+    "employees": [
+        {
+            "emp_id": 100,
+            "name": "jane",
+            "project": "java",
+            "company": "cts"
+        },
+        {
+            "emp_id": 101,
+            "name": "tony",
+            "project": "python",
+            "company": "infosys"
+        },
+        {
+            "emp_id": 102,
+            "name": "wonda",
+            "project": "c++",
+            "company": "accenture"
+        },
+        {
+            "emp_id": 103,
+            "name": "adhresh",
+            "project": "c_sharp",
+            "company": "cts"
+        },
+        {
+            "emp_id": 104,
+            "name": "hanna",
+            "project": "python",
+            "company": "infosys"
+        }
+    ]
+}
