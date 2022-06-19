@@ -7,7 +7,7 @@ import requests
 app=Flask(__name__)
 
 @app.route('/create',methods=['post'])
-def create():
+def create_operation():
     x=open('student.json','r')
     data_obj=json.load(x)
     data_list=data_obj['students']
