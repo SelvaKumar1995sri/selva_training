@@ -11,7 +11,7 @@ def create_operation():
     x=open('student.json','r')
     data_obj=json.load(x)
     data_list=data_obj['students']
-    val = request.get_json()
+    val = request.get_json()    
     data_list.append(val)
     with open('studen.json','w') as y:
         json.dump(data_obj,y)
@@ -27,7 +27,7 @@ def update():
         if i['id']==val["id"]:
             index_i=data_list.index(i)
             data_list[index_i]=val
-    
+
     with open('student.json','w') as y:
         json.dump(data_obj,y)
     return "updated successfully"
